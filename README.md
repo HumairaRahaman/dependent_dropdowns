@@ -22,4 +22,4 @@ Dependent Dropdowns is a React Web App powered by [Live Site](https://dependent-
 
 - npm start. (for start the project)
 
-- if not show the link in the display then use this extension [</Extension>](https://chrome.google.com/webstore/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe)
+- if not show the link in the display then use this extension [</ Extension>](https://chrome.google.com/webstore/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe)
