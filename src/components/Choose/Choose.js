@@ -73,9 +73,14 @@ const Choose = () => {
   };
 
   return (
-    <div className="min-h-screen bg-teal-50 shadow-xl shadow-cyan-400 rounded-lg ">
+    <div data-aos="flip-right"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="3000"  className="min-h-screen bg-teal-50 shadow-xl shadow-cyan-400 rounded-lg ">
       <div className="pt-16 flex lg:flex-row flex-col items-center gap-4 lg:justify-evenly ">
         <select
+        data-aos="fade-right"
+        data-aos-duration="2000"
+        data-aos-delay="1500"
           onChange={handleLanguageChange}
           className="select select-bordered w-full max-w-xs"
         >
@@ -87,6 +92,9 @@ const Choose = () => {
           ))}
         </select>
         <select
+         data-aos="fade-down"
+         data-aos-duration="2000"
+         data-aos-delay="2500"
           onChange={handleTopicChange}
           className="select select-bordered w-full max-w-xs"
         >
@@ -101,6 +109,9 @@ const Choose = () => {
           )}
         </select>
         <select
+         data-aos="fade-left"
+         data-aos-duration="2000"
+         data-aos-delay="2000"
           onChange={handleLearnChange}
           className="select select-bordered w-full max-w-xs"
         >
@@ -115,7 +126,9 @@ const Choose = () => {
           )}
         </select>
       </div>
-      <div className="flex items-center justify-center my-16 ">
+      <div  data-aos="zoom-in-up"
+        data-aos-duration="2000"
+        data-aos-delay="4200" className="flex items-center justify-center my-16 ">
         <button
           onClick={handleClick}
           className="btn btn-wide bg-gradient-to-r from-cyan-500 to-blue-500 border-0"
@@ -123,7 +136,10 @@ const Choose = () => {
           Show Information
         </button>
       </div>
-      <div className=" flex items-center justify-center pb-16  rounded-lg mx-8">
+      <div data-aos="flip-right"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="3000" 
+      className=" shadow-lg shadow-cyan-100 flex items-center justify-center pb-16  rounded-lg mx-8">
         {iframeLink && (
           <iframe
             target=".blank"
