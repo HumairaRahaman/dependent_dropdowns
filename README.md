@@ -1,6 +1,6 @@
 # Dependent Dropdowns Project Requirements
 
-Dependent Dropdowns is a React Web App powered by [Live Site](https://dependent-dropdowns.netlify.app/)
+Dependent Dropdowns is a React Web App [Live Site](https://dependent-dropdowns.netlify.app/)
 
 ## Total Pages: 02
 
