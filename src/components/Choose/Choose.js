@@ -76,7 +76,7 @@ const Choose = () => {
     <div className="min-h-screen bg-teal-50 shadow-xl shadow-cyan-400 rounded-lg ">
       <div className="pt-16 flex lg:flex-row flex-col items-center gap-4 lg:justify-evenly ">
         <select
-          onClick={handleLanguageChange}
+          onChange={handleLanguageChange}
           className="select select-bordered w-full max-w-xs"
         >
           <option value={"Language"}>Language</option>
@@ -87,7 +87,7 @@ const Choose = () => {
           ))}
         </select>
         <select
-          onClick={handleTopicChange}
+          onChange={handleTopicChange}
           className="select select-bordered w-full max-w-xs"
         >
           {currentLang === "Language" ? (
